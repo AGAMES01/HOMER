@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homer UCHIHA</title>
-    <link rel="icon" href="homer.JPG">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homer Uchica</title>
+    
+    <!-- Apple Web App Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Homer Uchica">
+    
+    <!-- Web App Icon -->
+    <link rel="apple-touch-icon" href="homer.JPG">
+    <link rel="icon" type="image/jpg" href="homer.JPG">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+
     <style>
-        body {
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            font-size: 2em;
-            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            color: red;
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
     </style>
 </head>
 <body>
-    Homer UCHIHA
+    <h1>Homer Uchica</h1>
 </body>
 </html>
